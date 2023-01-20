@@ -8,7 +8,6 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: DM Sans, sans-serif;
 }
-
 body {
   display: -ms-grid;
   display: grid;
@@ -26,8 +25,6 @@ body {
   right: 30px;
   top: 30px;
 }
-
-
 .hero {
   -ms-grid-column: 6;
   -ms-grid-column-span: 5;
@@ -36,7 +33,6 @@ body {
   background: url("https://media.tatler.ru/photos/6226199a6a5bd1a6a56f4d3e/4:3/w_1600%2Ch_1200%2Cc_limit/06_00006-valentino-fall-2022-ready-to-wear-paris-credit-alessandro-lucioni-gorunway.jpg")
     no-repeat 50% 50% / cover;
 }
-
 .small1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -47,7 +43,6 @@ body {
   background: url("https://vikram-hegde.github.io/resources/images/small1.png")
     no-repeat 50% 50% / cover;
 }
-
 .small2 {
   -ms-grid-column: 4;
   -ms-grid-column-span: 2;
@@ -58,7 +53,6 @@ body {
   background: url("https://vikram-hegde.github.io/resources/images/small2.png")
     no-repeat 50% 50% / cover;
 }
-
 .small3 {
   -ms-grid-column: 11;
   -ms-grid-column-span: 2;
@@ -69,7 +63,6 @@ body {
   background: url("https://vikram-hegde.github.io/resources/images/small3.png")
     no-repeat 50% 50% / cover;
 }
-
 .content {
   margin-top: 2rem;
   -ms-grid-column: 3;
@@ -83,11 +76,9 @@ body {
   margin-right: 1rem;
   font-weight: 400;
 }
-
 .content p {
   margin-top: 0.6rem;
 }
-
 .header {
   -ms-grid-column: 4;
   -ms-grid-column-span: 6;
@@ -99,19 +90,16 @@ body {
   font-size: 6rem;
   color: #fff;
 }
-
 .readmore {
   -ms-grid-column: 12;
   -ms-grid-column-span: 1;
   grid-column: 12 / 13;
   grid-row: -9 / -6;
 }
-
 .readmore img {
   height: 8.75rem;
   width: auto;
 }
-
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,12 +118,10 @@ body {
   -ms-grid-row-span: 6;
   grid-row: 3 / 9;
 }
-
 .social img {
   display: block;
   margin-top: 2rem;
 }
-
 @media (max-width: 1047px) {
   .header {
     font-size: 5rem;
@@ -173,4 +159,3 @@ body {
     transform: scale(0.9);
   }
 }
-
